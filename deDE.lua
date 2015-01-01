@@ -3,7 +3,7 @@
 if L then
 
 -- General
---@localization(locale="deDE", format="lua_additive_table" namespace="")@
+--@localization(locale="deDE", format="lua_additive_table")@
 
 -- InfoLine
 --@localization(locale="deDE", format="lua_additive_table" namespace="Infoline")@
