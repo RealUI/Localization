@@ -3,9 +3,9 @@
 if L then
 
 -- General
---@localization(locale="deDE", format="lua_additive_table")@
+--@localization(locale="deDE", format="lua_additive_table", handle-subnamespaces="none")@
 
 -- InfoLine
---@localization(locale="deDE", format="lua_additive_table" namespace="Infoline")@
+--@localization(locale="deDE", format="lua_additive_table", namespace="Infoline")@
 
 end
