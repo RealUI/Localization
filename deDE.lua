@@ -3,9 +3,17 @@
 if L then
 
 -- General
---@localization(locale="deDE", format="lua_additive_table", handle-subnamespaces="none")@
+--@localization(locale="deDE", format="lua_additive_table", namespace="General")@
+
+-- Install
+--@localization(locale="deDE", format="lua_additive_table", namespace="Install")@
+
+-- Options
+--@localization(locale="deDE", format="lua_additive_table", namespace="Options")@
+
+-- Config
+--@localization(locale="deDE", format="lua_additive_table", namespace="ConfigBar")@
 
 -- InfoLine
---@localization(locale="deDE", format="lua_additive_table", namespace="Infoline")@
-
+--@localization(locale="deDE", format="lua_additive_table", namespace="InfoLine")@
 end
