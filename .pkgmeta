@@ -1,3 +1,5 @@
+package-as: RealUI
+
 externals:
     Libs/AceAddon-3.0:
         svn://svn.wowace.com/wow/ace3/mainline/trunk/AceAddon-3.0
@@ -39,3 +41,10 @@ externals:
         svn://svn.wowace.com/wow/libstub/mainline/trunk
     Libs/LibTextTable-1.1:
         git://git.wowace.com/wow/libtexttable-1-1/mainline.git
+    Libs/HereBeDragons-1.0:
+        git://git.wowace.com/wow/herebedragons/mainline.git
+
+move-folders:
+    RealUI Localization/RealUI_!Core: RealUI_!Core
+    RealUI Localization/RealUI_Dev: RealUI_Dev
+
