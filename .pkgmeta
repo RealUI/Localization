@@ -45,6 +45,6 @@ externals:
         git://git.wowace.com/wow/herebedragons/mainline.git
 
 move-folders:
-    RealUI Localization/RealUI_!Core: RealUI_!Core
-    RealUI Localization/RealUI_Dev: RealUI_Dev
+    RealUI/RealUI_!Core: RealUI_!Core
+    RealUI/RealUI_Dev: RealUI_Dev
 
