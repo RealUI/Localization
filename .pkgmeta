@@ -1,4 +1,7 @@
-package-as: RealUI
+package-as: RealUI_!Core
+
+ignore:
+    !update.txt
 
 move-folders:
     RealUI/RealUI_!Core: RealUI_!Core
@@ -47,3 +50,10 @@ externals:
         git://git.wowace.com/wow/libtexttable-1-1/mainline.git
     RealUI_!Core/Libs/HereBeDragons-1.0:
         git://git.wowace.com/wow/herebedragons/mainline.git
+
+    RealUI_Config/Libs/AceConfig-3.0:
+        svn://svn.wowace.com/wow/ace3/mainline/trunk/AceConfig-3.0
+    RealUI_Config/Libs/AceGUI-3.0:
+        svn://svn.wowace.com/wow/ace3/mainline/trunk/AceGUI-3.0
+    RealUI_Config/Libs/AceGUI-3.0-SharedMediaWidgets:
+        svn://svn.wowace.com/wow/ace-gui-3-0-shared-media-widgets/mainline/trunk/AceGUI-3.0-SharedMediaWidgets
