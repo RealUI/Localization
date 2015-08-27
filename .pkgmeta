@@ -4,8 +4,8 @@ ignore:
     - update.txt
 
 move-folders:
-    RealUI/RealUI_!Core: RealUI_!Core
-    RealUI/RealUI_Dev: RealUI_Dev
+    RealUI_!Core/RealUI_!Core: RealUI_!Core
+    RealUI_!Core/RealUI_Config: RealUI_Config
 
 externals:
     RealUI_!Core/Libs/AceAddon-3.0:
