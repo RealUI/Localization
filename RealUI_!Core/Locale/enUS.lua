@@ -1,6 +1,10 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("nibRealUI", "enUS", true, RealUI.isDev)
+local ADDON_NAME, private = ...
 
-if L then
+-- RealUI --
+local RealUI = RealUI
+local L = {}
+
+RealUI.locale = GAME_LOCALE or GetLocale()
 
 -- General
 --@localization(locale="enUS", format="lua_additive_table", namespace="General")@
@@ -16,4 +20,4 @@ if L then
 
 -- InfoLine
 --@localization(locale="enUS", format="lua_additive_table", namespace="InfoLine")@
-end
+RealUI.L = L
