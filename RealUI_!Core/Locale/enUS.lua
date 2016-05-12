@@ -1,10 +1,13 @@
-local ADDON_NAME, private = ...
+local _, private = ... 
 
--- RealUI --
-local RealUI = RealUI
-local L = {}
+-- Lua Globals -- 
+local _G = _G 
 
-RealUI.locale = GAME_LOCALE or GetLocale()
+-- RealUI -- 
+local RealUI = private.RealUI 
+local L = {} 
+
+RealUI.locale = _G.GAME_LOCALE or _G.GetLocale() 
 
 -- General
 --@localization(locale="enUS", format="lua_additive_table", namespace="General")@
